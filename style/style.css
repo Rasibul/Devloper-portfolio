@@ -10,6 +10,8 @@ body {
 /* Nav related style */
 nav {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .nav-tittle {
@@ -21,6 +23,7 @@ nav {
 
 nav>ul {
     display: flex;
+    align-items: center;
 
 }
 
@@ -38,4 +41,9 @@ nav a {
     border-radius: 5px;
     border: 1px solid #000;
     background: #FD6E0A;
+    color:  #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+
 }
