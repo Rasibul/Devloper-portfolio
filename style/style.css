@@ -12,12 +12,14 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 
 .nav-tittle {
     color: #181818;
     font-size: 45px;
     font-weight: 800;
+
 
 }
 
@@ -41,9 +43,26 @@ nav a {
     border-radius: 5px;
     border: 1px solid #000;
     background: #FD6E0A;
-    color:  #FFF;
+    color: #FFF;
     font-size: 20px;
     font-weight: 700;
     padding: 15px 35px;
 
+}
+
+/* Header section style */
+.header {
+    background-color: #FFF8F3;;
+    ;
+}
+
+.banner {
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+
+.profile {
+    width: 584px;
+  
 }
